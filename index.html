@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHILL WORLD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CHILL WORLD</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#flavors">Flavors</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Home" id="Home">
+        <main>
+            <h2 id="welcome">Welcome to CHILL WORLD</h2>
+            <img src="icemain.jpg" alt="Sample Image" class="floated-image">
+            <p>
+                <ol>
+                    <li>I scream, you scream, we all scream for ice cream!</li>
+                    <li>Without ice cream, there would be darkness and chaos.</li>
+                    <li>Happiness is...eating ice cream on a hot day.</li>
+                    <li>I love you more than ice cream, and that's saying a lot.</li>
+                    <li>You can't buy happiness, but you can buy ice cream. And that's kind of the same thing.</li>
+                    <li>"Ice cream is a smile in a cone.</li>
+                    <a href="Menu.pdf">menu</a>
+                    <a href="SaveTube.App - me licking ice cream (128 kbps).mp3">Audio</a>
+                </ol>
+            </p>
+         </main>
+        <aside>
+            <h3 id="howtomake">How to make:</h3>
+            <ul>
+                <li><a href="https://joyfoodsunshine.com/chocolate-ice-cream/">Chocolate</a></li>
+                <li><a href="https://www.loveandlemons.com/homemade-ice-cream-recipe/">Vanilla</a></li>
+                <li><a href="https://www.youtube.com/watch?v=KoWwoj35s38">Strawberry</a></li>
+            </ul>
+        </aside>
+    </div>
+    
+    <section class="flavors" id="flavors">
+        <h1>Our Flavors</h1>
+        <div id="choco">
+            <h2 >Chocolate</h2>
+            <img src="Chocolate-Ice-Cream-335x300.jpg" width="300" height="200">
+            <p>Rich and creamy chocolate ice cream.</p>
+        </div>
+        <div id="vani">
+            <h2 >Vanilla</h2>
+            <img src="vanilla.jpg" alt="" width="300" height="200">
+            <p>Classic vanilla ice cream made with real vanilla beans.</p>
+        </div>
+        <div id="straw">
+            <h2 >Strawberry</h2>
+            <img src="Strawberry.jpg" width="300" height="200">
+            <p>Refreshing strawberry ice cream with real strawberries.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Ice cream is one of the most commonly loved desserts on this planet. It has a creamy, sweet taste that many people love. Ice cream is delicious and famous, and it is made from dairy products such as milk and cream, eggs, sugar and sorbet powder. Ice cream can be made using fruits, vegetables, and milk instead of sugar.</p>
+        <img src="icemain.jpg" alt="">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="row">
+            <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Rahul</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">cHILL WORLD ,Coimbature - palladam road ,Tamilnadu- 641402.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">rahulravit407@gmail.com</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="info">
+                <div class="head">Contact no</div>
+                <div class="sub-title">7708600175</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CHILL WORLD. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+    body {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+ol{
+    color: black;
+}
+#welcome{
+    outline: #333;
+}
+#choco{
+    color: chocolate;
+}
+#vani{
+    color: brown;
+}
+#straw{
+    color: #FA3F55;
+}
+#hice{
+    color: #F4A460;
+}
+#howtomake{
+    color: #000;
+}
+.floated-image {
+    float: left;
+    margin-right: 30px;
+}
+.flavors{
+    color: black;
+    background-color: #ddf3ab;
+}
+.Home {
+    display: flex;
+    margin: 20px;
+}
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-left: 20px;
+}
+header {
+    background-color: #F4A460;
+    padding: 20px;
+    text-align: center;
+}
+#home2{
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+#about{
+    color: black;
+    background-image: url('back.jpg');
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    height: 50vh; /* Full height of the viewport */
+    margin: 0; /* Removes default margin */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+#Home {
+    background-color: #FFFAF0;
+    background-size: cover;
+    color: #F4A460;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#flavors, #about, #contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.flavor {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.head{
+        font-weight: 500;
+    }
+#contact{
+        background-color: #FFF0F5;
+        background-size: cover;
+        
+    }
+.row{
+        
+        height: 65px;
+        align-items: center;
+    }
+    .contact .row .info{
+        margin-left: 30px;
+    }
+    .contact  .row i{
+        font-size: 25px;
+        color: rgb(156, 94, 255);
+    }
+.sub-title{
+        color: #708090 ;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</html>
